@@ -27,8 +27,6 @@ function App() {
   //offene Punkte: 
   //  - Datenbank befüllen
   //  - mit ChatGPT zusammenfassen
-  //  - Frontend schönmachen (x)
-  //  - zu Git hochladen () PRIO 2
   //  - Text schön darstellen
   //  - ladeanzeige 
   //  - erneute Suche?
@@ -41,10 +39,6 @@ function App() {
   const [searched, setSearched] = useState(false);
 
   return (
-
-    // items-center: y-achse
-    // justify-center: x-achse
-
     <div className=" h-screen flex items-center justify-center">
       {searched &&
         <div className='grid grid-rows-6 w-full h-full'>
